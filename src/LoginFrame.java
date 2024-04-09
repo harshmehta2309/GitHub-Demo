@@ -15,6 +15,7 @@ public class LoginFrame extends JFrame {
         JPanel panel = new JPanel();
         panel.add(emailLabel);
         panel.add(emailField);
+        panel.setbackground(color.Light_GREY);
         panel.add(passwordLabel);
         panel.add(passwordField);
         panel.add(loginButton);
